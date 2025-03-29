@@ -13,6 +13,7 @@ set tabstop=4
 "set autoindent
 set laststatus=2
 set bg=dark
+set hlsearch
 
 " Plugins.
 call plug#begin()
@@ -35,4 +36,4 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 " Start NERDTree and put the cursor back in the other window.
-autocmd VimEnter * NERDTree | wincmd p
+"autocmd VimEnter * NERDTree | wincmd p
